@@ -45,7 +45,6 @@ img {
 }
 
 body {
-  max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 0;
@@ -531,7 +530,7 @@ ul {
   margin-right: 70px;
 }
 
-.address__list:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -726,6 +725,6 @@ ul {
   cursor: pointer;
 }
 
-.mail-text {
+.mail__text {
   margin-right: 10px;
 }/*# sourceMappingURL=main.css.map */
