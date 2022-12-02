@@ -659,7 +659,18 @@ ul {
 ======================================== 
 ========================================*/
 
-.button-pic {
+/* .nav__btn {
+    display: flex;
+    justify-content: center;
+   
+    margin-bottom: 50px; 
+} */
+
+/* .nav__pointer:not(:last-child) {
+    margin-right: 8px;
+} */
+
+/* .pic__btn {
     min-width: 73px;
     min-height: 38px;
     border-radius: 4px;
@@ -678,110 +689,54 @@ ul {
     transition: color var(--hover-trans), 
     background-color var(--hover-trans),
     box-shadow var(--hover-trans), 
-    border var(--hover-trans);
-       
-}
+    border var(--hover-trans);     
+} */
 
-.button-pic:hover,
-.button-pic:focus {
+/* .pic__btn:hover,
+.pic__btn:focus {
     background-color: var(--accent-color);
     color: var(--hero-text-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border: 1px solid var(--accent-color);
-}
-
-.btn-pointer-list:not(:last-child) {
-    margin-right: 8px;
-}
-
-.pointer {
-    cursor: pointer; }
-
-/* .button.primary {
-    background-color: var(--accent-color);
-    color: var(--hero-text-color)
-}
-
-.button.secondary {
-    background-color: var(--secondary-bgd-color);
-    color: var(--title-text-color)
-}  */
-
-.section-pic .pic-title {
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-
-    /* margin-top: 20px; */
-}
-.section-pic a {
-    text-decoration: none 
-  }
-.section-pic .pic-text {
-    color: var(--primary-text-color);
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
-
-    margin-top: 4px;
-    /* margin-bottom: 20px; */
-}
-
-.btn-pointer {
-    display: flex;
-    justify-content: center;
-    /* outline: 1px solid tomato; */
-    margin-bottom: 50px;
-    
-}
-/* .section-pic {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
 } */
 
+/* .pic__btn--pointer {
+    cursor: pointer; 
+} */
 
-.pic-list {
-    /* outline: 1px solid tomato; */
+/* .pic__list {
+   
     padding: 0;
     margin: 0;
     list-style: none;
-
     display: flex;
     flex-wrap: wrap;
-
-    /* margin-left: -30px;
-    margin-top: -30px; */
     gap: 30px;
-}
+} */
 
-.pic-list > .pic-element {
+/* .pic__list > .pic__element {
     flex-basis: calc((100% - 60px) / 3);  
 }
-.pic-element-link {
+.pic__link {
     display: block;
     transition: box-shadow var(--hover-trans);
 }
-.pic-element-link:hover,
-.pic-element-link:focus {
+.pic__link:hover,
+.pic__link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    
 }
 
-.pic-element-link:hover .overlay,
-.pic-element-link:focus .overlay {
-
+.pic__link:hover .pic__overlay,
+.pic__link:focus .pic__overlay {
     transform: translateY(0);
 }
 
-.pic-thumb {
+.pic__thumb {
     position: relative;
     overflow: hidden;
 }
 
-.overlay {
+.pic__overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -792,13 +747,31 @@ ul {
     align-items: center;
     width: 100%;
     height: 100%;
-
     background: rgba(33, 150, 243, 0.9);
 
     transition: transform var(--hover-trans);
 }
 
-.overlay-text-pic {
+.pic__card {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    border: 1px solid var(--borler-portfolio-pic);
+    border-top: none;
+   }
+
+.pic__text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+
+    margin-top: 4px;
+}
+
+.overlay__text {
     padding-left: 24px;
     padding-right: 24px;
     font-weight: 400;
@@ -807,6 +780,40 @@ ul {
     letter-spacing: 0.03em; 
     color: #ffffff;
 }
+
+.section__pic .pic__title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.section__pic a {
+    text-decoration: none 
+  }
+.section__pic .pic__text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+
+    margin-top: 4px;
+} */
+
+
+
+
+
+/* .button.primary {
+    background-color: var(--accent-color);
+    color: var(--hero-text-color)
+}
+
+.button.secondary {
+    background-color: var(--secondary-bgd-color);
+    color: var(--title-text-color)
+}  */
 
 /* ===================================
             visually-hidden
