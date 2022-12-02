@@ -95,15 +95,15 @@ ul {
   margin-right: 93px;
 }
 
-.logo--dark {
+.header__logo--dark {
   color: #000000;
 }
 
-.logo--light {
+.footer__logo--light {
   color: var(--hero-text-color);
 }
 
-.nav {
+.header__nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -122,7 +122,7 @@ ul {
           align-items: center;
 }
 
-.nav__site .item {
+.nav__link--item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -142,13 +142,13 @@ ul {
   text-decoration: none;
 }
 
-.nav__site .link {
+.nav__link--link {
   -webkit-transition: color var(--hover-trans);
   transition: color var(--hover-trans);
 }
 
-.nav__site .link:hover,
-.nav__site .link:focus {
+.nav__link--link:hover,
+.nav__link--link:focus {
   color: var(--accent-color);
 }
 
@@ -172,7 +172,7 @@ ul {
   /* outline: 1px red solid; */
 }
 
-.nav__link--current {
+.nav__site .nav__link--current {
   color: var(--accent-color);
 }
 

@@ -8,47 +8,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
     rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="container header-container">
-            <nav class="navigation">
-                <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span></a>
+        <div class="container header__container">
+            <nav class="header__nav">
+                <a href="./index.html" class="header__logo logo">Web<span class="header__logo--dark">Studio</span></a>
 
-                <ul class="site-nav ">
-                    <li class="link-nav"><a href="./index.html" class="header-link link item">Студія</a></li>
-                    <li class="link-nav"><a href="./portfolio.html" class="header-link link item current">Портфоліо</a></li>
-                    <li class="link-nav"><a href="" class="header-link link item">Контакти</a></li>
+                <ul class="nav__site">
+                    <li class="nav__item"><a href="./index.html" class="nav__link nav__link--item nav__link--current">Студія</a></li>
+                    <li class="nav__item"><a href="./portfolio.html" class="nav__link nav__link--link nav__link--item">Портфоліо</a></li>
+                    <li class="nav__item"><a href="" class="nav__link nav__link--link nav__link--item">Контакти</a></li>
                 </ul>
             </nav>
 
-            <ul class="site-nav">
-                <li class="link-nav">
+            <ul class="nav__site">
+                <li class="nav__item">
                     <a 
                     target="_blank" 
                     rel="noopener noreferrer nofollow"
                     href="mailto:info@devstudio.com" 
-                    class="header-link link item-contact">
-                        <div class="contact-item-pic">
-                            <svg class="contacts-pic" width="16" height="12">
+                    class="nav__link nav__link--link nav__contact">                       
+                            <svg class="nav__img" width="16" height="12">
                                 <use href="./images/icons.svg#icon-mail"></use>
                             </svg>
-                            info@devstudio.com
-                        </div>
+                            info@devstudio.com                        
                     </a>
                 </li>
-                <li class="link-nav">
+                <li class="nav__item">
                     <a 
                     href="tel:+380961111111" 
-                    class="header-link link item-contact">
-                        <div class="contact-item-pic">
-                            <svg class="contacts-pic" width="10" height="16">
+                    class="nav__link nav__link--link nav__contact">
+                            <svg class="nav__img" width="10" height="16">
                                 <use href="./images/icons.svg#icon-tel"></use>
                             </svg>
                             +38 096 111 11 11
-                        </div>
                     </a>
                 </li>
             </ul>

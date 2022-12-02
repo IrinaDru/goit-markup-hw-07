@@ -1,4 +1,4 @@
-.nav {
+.header__nav {
     display: flex;
     align-items: center;
 }
@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.nav__site .item { 
+.nav__link--item { 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -21,22 +21,20 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
 }
 
 .nav__site a {
     color: var(--title-text-color);
     text-decoration: none;
-    
 }
 
-.nav__site .link {
+.nav__link--link {
     transition: color var(--hover-trans);
     
 } 
 
-.nav__site .link:hover,
-.nav__site .link:focus {
+.nav__link--link:hover,
+.nav__link--link:focus {
     color: var(--accent-color);
 }
 
@@ -54,8 +52,8 @@
     /* outline: 1px red solid; */
 }
 
-.nav__link--current {
-    color: var(--accent-color)
+.nav__site .nav__link--current {
+    color: var(--accent-color);
 }
 
 .nav__link--current::after {
