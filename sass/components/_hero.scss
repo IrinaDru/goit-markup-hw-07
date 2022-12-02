@@ -53,6 +53,7 @@
     letter-spacing: 0.06em;
 
     transition: background-color var(--hover-trans);
+    cursor: pointer;
 }
 .hero__button:hover,
 .hero__button:focus {
